@@ -64,7 +64,7 @@ nav a:hover{
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #0000;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 footer{
     background-color: #cec075;
@@ -130,7 +130,7 @@ footer .social img{
 .card-img{
     border: 10px solid #654c4f ;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #0000 ;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 main section img{
     box-sizing: border-box;
@@ -182,7 +182,7 @@ grid-row: 2/3;
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;  
-    box-shadow: 5px 5px 10px #0000;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img :hover {
     opacity: .6;
