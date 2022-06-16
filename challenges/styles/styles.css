@@ -14,3 +14,20 @@ div {
 h2{
     color: #654c4f;
 }
+.content1 {
+    /* This is the parent of the activity 1 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+  
+  
+  }
+  .red1 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: red; 
+    grid-column: 1/3;
+    
+    
+  } 
