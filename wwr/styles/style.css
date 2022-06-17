@@ -7,7 +7,7 @@ div {
 }
 nav a {
     text-align: center;
-    color: #9da9a0;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 35px;
 }
@@ -33,7 +33,7 @@ body{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #FFFFFF;
+    background-color: #9da9a0;
 
 }
 nav a:hover{
