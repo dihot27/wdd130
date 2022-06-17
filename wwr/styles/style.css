@@ -33,7 +33,7 @@ body{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #9da9a0;
+    background-color: #FFFFFF;
 
 }
 nav a:hover{
