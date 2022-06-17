@@ -188,6 +188,11 @@ grid-row: 2/3;
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+
+}
+
+p{
+    text-align: left;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
