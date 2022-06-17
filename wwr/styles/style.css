@@ -190,11 +190,12 @@ grid-row: 2/3;
     transform: scale(1.1);
 
 }
-
-.p{
+p {
+    text-indent: 50px;
     text-align: justify;
-    color: #6f7364;
-}
+    letter-spacing: 3px;
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
