@@ -190,7 +190,7 @@ grid-row: 2/3;
     transform: scale(1.1);
 
 }
-p {
+#section {
     text-indent: 50px;
     text-align: justify;
     letter-spacing: 3px;
