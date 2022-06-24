@@ -213,15 +213,15 @@ h4{
   padding-bottom: 15px;
 }
 footer h3{
-  color: #b26e63;
+  color: #457b9d;
   text-decoration: underline;
 }
 footer a{
-  color: #c0caad;
+  color: #f1faee;
   text-decoration: none;
 }
 footer a:hover{
-  color: #b26e63;
+  color: #1d3557;
   text-decoration: underline;
 }
 .logo{
@@ -236,7 +236,7 @@ footer a:hover{
 }
 h2 {
   margin: 0%;
-  color:#654c4f
+  color:#e63946
 }
 #logo_link{
   padding-top: 5px;
