@@ -173,6 +173,20 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+footer{
+  background-color: #cec075;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-title{
+  color: #b26e63;
+  font-family: 'Koulen', 'Playfair+Display', serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
 footer h3{
   color: #b26e63;
   text-decoration: underline;
