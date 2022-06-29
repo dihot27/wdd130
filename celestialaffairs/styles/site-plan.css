@@ -181,12 +181,7 @@ footer{
   justify-content: space-around;
   align-items: center;
 }
-.home-title{
-  color: #b26e63;
-  font-family: 'Koulen', 'Playfair+Display', serif;
-  font-size: 2em;
-  margin-top: 10px;
-}
+
 footer h3{
   color: #b26e63;
   text-decoration: underline;
