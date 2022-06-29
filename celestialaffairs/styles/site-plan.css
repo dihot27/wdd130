@@ -230,7 +230,7 @@ footer .social img{
 }
 
 footer h3{
-    color: #e63946;
+    color: #f1faee;
     text-decoration: underline;
 }
 footer a{
@@ -247,4 +247,5 @@ footer a:hover{
 .icon{
     width: 80px;
     padding-top: 10px;
+    
 }
