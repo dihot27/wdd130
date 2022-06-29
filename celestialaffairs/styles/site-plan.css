@@ -247,6 +247,16 @@ footer .social img{
   footer {
       margin-top: 25px;
   }
+  #logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer .social img{
+    padding-top: 15px;
+} 
+
+  
 }
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
