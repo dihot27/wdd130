@@ -52,6 +52,12 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+header{
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #457b9d;
+
+}
 header {
   padding: 1em;
   text-align: center;
@@ -174,7 +180,7 @@ nav a:hover {
   border-right: 1px solid;
 }
 footer{
-  background-color: #cec075;
+  background-color: #e63946;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -183,15 +189,15 @@ footer{
 }
 
 footer h3{
-  color: #b26e63;
+  color: #abdadc;
   text-decoration: underline;
 }
 footer a{
-  color: #c0caad;
+  color: #abdadc;
   text-decoration: none;
 }
 footer a:hover{
-  color: #b26e63;
+  color: #e63946;
   text-decoration: underline;
 }
 .logo{
@@ -206,7 +212,7 @@ footer a:hover{
 }
 h2 {
   margin: 0%;
-  color:#654c4f
+  color:#1d3557
 }
 #logo_link{
   padding-top: 5px;
@@ -218,15 +224,15 @@ footer .social img{
 }
 
 footer h3{
-    color: #b26e63;
+    color: #e63946;
     text-decoration: underline;
 }
 footer a{
-    color: #c0caad;
+    color: #abdadc;
     text-decoration: none;
 }
 footer a:hover{
-    color: #b26e63;
+    color: #e63946;
     text-decoration: underline;
 }
 .logo{
