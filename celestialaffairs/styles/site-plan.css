@@ -52,6 +52,12 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+nav a {
+  text-align: center;
+  color: #457b9d;
+  text-decoration: none;
+  padding: 35px;
+}
 header{
   display: grid;
   grid-template-columns: 150px auto;
