@@ -83,7 +83,7 @@ footer {
 .msg p {
     color: #ffc49b;
     font-family: "koulen", Helvetica, sans-serif;
-    font-size: 8em;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 footer a {
