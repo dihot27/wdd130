@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Playfair+Display&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -21,6 +22,7 @@ main section {
 }
 body {
     background-color: #adb6c4;
+    font-family: "koulen", Helvetica, sans-serif;
 }
 header {
     background-color: #294c60;
@@ -51,6 +53,7 @@ footer {
 }
 .msg h2 {
     color: #adb6c4;
+    font-family: "koulen", Helvetica, sans-serif;
 }
 .msg p {
     color: #ffc49b;
