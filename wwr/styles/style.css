@@ -24,6 +24,7 @@ main section {
 body {
     background-color: #adb6c4;
     font-family: "koulen", Helvetica, sans-serif;
+    font-size: 22px;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +51,7 @@ nav a:hover {
     font-family: "koulen", Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px ;
+    margin-top: 50px;
     border-radius: 5px;
 }
 .book:hover, .join:hover {
@@ -73,7 +74,7 @@ footer {
     background-color: #294c60;
     color: #ffc49b;
     padding: 25px 50px;
-    margin-top: 200pxp;
+    margin-top: 200px;
 }
 .msg h2 {
     color: #adb6c4;
