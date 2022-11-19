@@ -173,3 +173,15 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
