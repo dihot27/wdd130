@@ -173,6 +173,10 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+#class {
+  box-sizing: border-box;
+}
+
 .column {
   float: left;
   width: 33.33%;
