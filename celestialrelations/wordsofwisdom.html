@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestial Relations | Home</title>
+    <link rel="stylesheet" href="styles/site-plan.css">
+</head>
+<body>
+    <div id="content">
+    <header>
+        
+        <a  href="index.html" id="logo_link">
+            <img class="logo" src="images/celestial.png" alt="Celestial Relations Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="conflict-resolution.html">Conflict Resolution</a>
+            <a href="wordsofwisdom.html">Words Of Wisdom</a>
+        </nav>
+    </header> 
+    <div class="row">
+        <div class="column">
+          <img src="images/Prophets.jfif" alt="Prophets" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="images/Apostles.jfif" alt="Apostles" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+          </div>
+          
+          <script>
+          function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "block";
+          }
+          </script>
+ 
+         
+        
+        <footer>
+            <p>Celestial Relations &copy;2022 - Tlhabanelo Diholo</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contuct Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target=" _blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target=" _blank">
+                    <img src="images/twitter.png" alt="twiiter icon">
+                </a>
+                <a href="https://instagram.com" target=" _blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    
+    
+</body>
+</html>
