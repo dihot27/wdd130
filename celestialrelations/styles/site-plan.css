@@ -411,8 +411,10 @@ textarea {
 .moveDown {
   margin-top: 3em;
 }
-* {box-sizing:border-box}
 
+* {
+  box-sizing: border-box;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -421,7 +423,7 @@ textarea {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides  {
   display: none;
 }
 
@@ -492,6 +494,33 @@ textarea {
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
 @keyframes fade {
