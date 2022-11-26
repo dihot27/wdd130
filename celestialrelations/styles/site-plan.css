@@ -411,7 +411,7 @@ textarea {
 .moveDown {
   margin-top: 3em;
 }
-
+* {box-sizing:border-box}
 * {
   box-sizing: border-box;
 }
