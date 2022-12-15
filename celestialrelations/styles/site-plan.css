@@ -497,7 +497,7 @@ textarea {
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
-  color: white;
+  color: #1d3557;
 }
 .row:after {
   content: "";
